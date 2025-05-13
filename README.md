@@ -1,20 +1,20 @@
 
-# 📊 Google Play Store Reviews Analysis Dashboard
+#  Google Play Store Reviews Analysis Dashboard
 
 This project provides a comprehensive data visualization dashboard to analyze Google Play Store app data and user reviews. It uses Python (Pandas, Plotly, Matplotlib, Seaborn) to clean, filter, and display insights on app installs, ratings, reviews, revenue, and sentiments.
 
 ---
 
-## 📁 Dataset
+##  Dataset
 
 - **Play Store Data.csv**: Contains metadata for apps (category, size, installs, price, rating, etc.).
 - **User Reviews.csv**: Includes user reviews and sentiment information.
 
 ---
 
-## 📌 Features
+##  Features
 
-### ✅ Data Cleaning and Filtering
+###  Data Cleaning and Filtering
 
 - Removed entries with missing or invalid installs, size, ratings, and prices.
 - Converted relevant fields to appropriate numeric formats.
@@ -26,7 +26,7 @@ This project provides a comprehensive data visualization dashboard to analyze Go
   - Content Rating = 'Everyone'
   - App name length ≤ 30 characters
 
-### 📈 Visualizations
+###  Visualizations
 
 1. **Dual-Axis Chart** (1–2 PM IST only)
    - Compares average installs and revenue across top 3 app categories.
@@ -48,7 +48,7 @@ This project provides a comprehensive data visualization dashboard to analyze Go
 
 ---
 
-## 📦 Requirements
+##  Requirements
 
 Install dependencies using:
 
@@ -65,7 +65,7 @@ nltk.download('stopwords')
 
 ---
 
-## 💡 Usage
+##  Usage
 
 1. Run `Analysis.ipynb` in Jupyter Notebook to generate charts.
 2. Output plots are saved as standalone HTML files.
@@ -73,7 +73,7 @@ nltk.download('stopwords')
 
 ---
 
-## 🕐 Time-Based Chart Display
+##  Time-Based Chart Display
 
 Certain visualizations are only available during specific time windows (IST):
 - **Dual-Axis Revenue/Installs** → 1–2 PM
@@ -81,7 +81,7 @@ Certain visualizations are only available during specific time windows (IST):
 
 ---
 
-## 📂 File Structure
+##  File Structure
 
 ```
 ├── Analysis.ipynb
